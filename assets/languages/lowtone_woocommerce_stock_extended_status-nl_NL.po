@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Extended Stock Status\n"
+"POT-Creation-Date: 2013-09-04 12:48+0100\n"
+"PO-Revision-Date: 2013-09-04 12:50+0100\n"
+"Last-Translator: Paul van der Meijs <info@lowtone.nl>\n"
+"Language-Team: Lowtone <info@lowtone.nl>\n"
+"Language: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../lowtone-woocommerce-stock-extended_status.php:38
+msgid "Availability"
+msgstr "Beschikbaarheid"
+
+#: ../../lowtone-woocommerce-stock-extended_status.php:40
+msgid "Discontinued"
+msgstr "Uit de handel"
+
+#: ../../lowtone-woocommerce-stock-extended_status.php:41
+msgid "Expected"
+msgstr "Verwacht"
+
+#: ../../lowtone-woocommerce-stock-extended_status.php:44
+#: ../../lowtone-woocommerce-stock-extended_status.php:56
+msgid ""
+"Custom status. If a custom status is provided it will be displayed with the "
+"product. The custom status text is only intended to provide more detailed "
+"information and does not affect the availability of the product"
+msgstr ""
+
+#: ../../lowtone-woocommerce-stock-extended_status.php:53
+msgid "Available from"
+msgstr "Beschikbaar vanaf"
