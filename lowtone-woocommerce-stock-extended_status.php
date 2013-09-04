@@ -74,6 +74,14 @@ namespace lowtone\woocommerce\stock\extended_status {
 			update_post_meta($postId, optionKey("available_from"), strtotime($_POST[optionKey("available_from")]));
 
 	}, 10, 2);
+				
+	// Register textdomain
+
+	add_action("plugins_loaded", function() {
+		load_plugin_textdomain("lowtone_woocommerce_stock_extended_status", false, basename(__DIR__) . "/assets/languages");
+	});
+
+	// Functions
 
 	function optionKey($key) {
 		return "_lowtone_woocommerce_stock_extended_status_" . $key;
